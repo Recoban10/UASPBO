@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/gh380/OneDrive/Documents/NetBeansProjects/chatting-master/src/jdbc/chat/UsernameRequest.java</file>
+            <file>file:/C:/Users/gh380/OneDrive/Documents/NetBeansProjects/chatting-master/src/jdbc/user/UserJdbcImplement.java</file>
+            <file>file:/C:/Users/gh380/OneDrive/Documents/NetBeansProjects/chatting-master/src/view/mainmenu/FormMainMenu.java</file>
+            <file>file:/C:/Users/gh380/OneDrive/Documents/NetBeansProjects/chatting-master/src/view/changepassword/FormChangePassword.java</file>
+            <file>file:/C:/Users/gh380/OneDrive/Documents/NetBeansProjects/chatting-master/src/jdbc/chat/ChatJdbc.java</file>
+            <file>file:/C:/Users/gh380/OneDrive/Documents/NetBeansProjects/chatting-master/src/connection/Conn.java</file>
+            <file>file:/C:/Users/gh380/OneDrive/Documents/NetBeansProjects/chatting-master/src/jdbc/user/UserJdbc.java</file>
+            <file>file:/C:/Users/gh380/OneDrive/Documents/NetBeansProjects/chatting-master/src/jdbc/chat/SaveChatRequest.java</file>
+            <file>file:/C:/Users/gh380/OneDrive/Documents/NetBeansProjects/chatting-master/src/jdbc/chat/ChatJdbcImplement.java</file>
+            <file>file:/C:/Users/gh380/OneDrive/Documents/NetBeansProjects/chatting-master/src/view/user/FormLogin.java</file>
+            <file>file:/C:/Users/gh380/OneDrive/Documents/NetBeansProjects/chatting-master/src/view/chat/FormChat.java</file>
+            <file>file:/C:/Users/gh380/OneDrive/Documents/NetBeansProjects/chatting-master/src/view/user/FormRegister.java</file>
+            <file>file:/C:/Users/gh380/OneDrive/Documents/NetBeansProjects/chatting-master/src/log/log4j.properties</file>
+            <file>file:/C:/Users/gh380/OneDrive/Documents/NetBeansProjects/chatting-master/src/view/user/FormAddUser.java</file>
+            <file>file:/C:/Users/gh380/OneDrive/Documents/NetBeansProjects/chatting-master/src/jdbc/user/SaveUserRequest.java</file>
+            <file>file:/C:/Users/gh380/OneDrive/Documents/NetBeansProjects/chatting-master/src/jdbc/user/ChangePasswordRequest.java</file>
+            <file>file:/C:/Users/gh380/OneDrive/Documents/NetBeansProjects/chatting-master/src/jdbc/chat/UsernameResponse.java</file>
+        </group>
+    </open-files>
+</project-private>

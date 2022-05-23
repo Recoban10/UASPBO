@@ -1,0 +1,250 @@
+INFO    2022-05-23 21:56:16,767 [AWT-EventQueue-0] jdbc.user.UserJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@c3e5ab1: 
+update
+	user set
+	username ='recoba',
+	name ='arya',
+	password ='123',
+	`role` ='Admin',
+	note ='',
+	`date` ='2022-05-23 21:56:16',
+	status ='ON'
+where
+	id =9;
+INFO    2022-05-23 22:07:14,461 [AWT-EventQueue-0] jdbc.chat.ChatJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@4fdaf2f0: 
+select
+	user.name sender,
+	(select name from user where username = message.target_username) reciver,
+	message.content
+from
+	message
+left join user on
+	message.username = user.id
+where
+	message.username in('1', 'gh')
+	and message.target_username in('1', 'gh')
+order by
+	message.date;
+INFO    2022-05-23 22:07:14,471 [AWT-EventQueue-0] jdbc.chat.ChatJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@696a2d20: 
+select
+	user.name sender,
+	(select name from user where username = message.target_username) reciver,
+	message.content
+from
+	message
+left join user on
+	message.username = user.id
+where
+	message.username in('1', 'gh')
+	and message.target_username in('1', 'gh')
+order by
+	message.date;
+INFO    2022-05-23 22:07:19,437 [AWT-EventQueue-0] jdbc.chat.ChatJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@2e1c2841: 
+select
+	user.name sender,
+	(select name from user where username = message.target_username) reciver,
+	message.content
+from
+	message
+left join user on
+	message.username = user.id
+where
+	message.username in('1', 'recoban')
+	and message.target_username in('1', 'recoban')
+order by
+	message.date;
+INFO    2022-05-23 22:07:19,439 [AWT-EventQueue-0] jdbc.chat.ChatJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@1eea848c: 
+select
+	user.name sender,
+	(select name from user where username = message.target_username) reciver,
+	message.content
+from
+	message
+left join user on
+	message.username = user.id
+where
+	message.username in('1', 'recoban')
+	and message.target_username in('1', 'recoban')
+order by
+	message.date;
+INFO    2022-05-23 22:07:21,024 [AWT-EventQueue-0] jdbc.chat.ChatJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@7daf4213: 
+select
+	user.name sender,
+	(select name from user where username = message.target_username) reciver,
+	message.content
+from
+	message
+left join user on
+	message.username = user.id
+where
+	message.username in('1', '7')
+	and message.target_username in('1', '7')
+order by
+	message.date;
+INFO    2022-05-23 22:07:21,025 [AWT-EventQueue-0] jdbc.chat.ChatJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@364094fc: 
+select
+	user.name sender,
+	(select name from user where username = message.target_username) reciver,
+	message.content
+from
+	message
+left join user on
+	message.username = user.id
+where
+	message.username in('1', '7')
+	and message.target_username in('1', '7')
+order by
+	message.date;
+INFO    2022-05-23 22:08:08,460 [AWT-EventQueue-0] jdbc.chat.ChatJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@1b53d7d8: 
+select
+	user.name sender,
+	(select name from user where username = message.target_username) reciver,
+	message.content
+from
+	message
+left join user on
+	message.username = user.id
+where
+	message.username in('recoban', 'gh')
+	and message.target_username in('recoban', 'gh')
+order by
+	message.date;
+INFO    2022-05-23 22:08:08,470 [AWT-EventQueue-0] jdbc.chat.ChatJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@78eebcc3: 
+select
+	user.name sender,
+	(select name from user where username = message.target_username) reciver,
+	message.content
+from
+	message
+left join user on
+	message.username = user.id
+where
+	message.username in('recoban', 'gh')
+	and message.target_username in('recoban', 'gh')
+order by
+	message.date;
+INFO    2022-05-23 22:13:01,114 [AWT-EventQueue-0] jdbc.chat.ChatJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@6d13c044: 
+select
+	(select name from user where username = message.username) sender,
+	(select name from user where username = message.target_username) reciver,
+	message.content
+from
+	message
+left join user on
+	message.username = user.id
+where
+	message.username in('recoban', 'gh')
+	and message.target_username in('recoban', 'gh')
+order by
+	message.date;
+INFO    2022-05-23 22:13:01,126 [AWT-EventQueue-0] jdbc.chat.ChatJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@313da8cb: 
+select
+	(select name from user where username = message.username) sender,
+	(select name from user where username = message.target_username) reciver,
+	message.content
+from
+	message
+left join user on
+	message.username = user.id
+where
+	message.username in('recoban', 'gh')
+	and message.target_username in('recoban', 'gh')
+order by
+	message.date;
+INFO    2022-05-23 22:13:43,917 [AWT-EventQueue-0] jdbc.chat.ChatJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@40e89b0e: 
+select
+	(select name from user where username = message.username) sender,
+	(select name from user where username = message.target_username) reciver,
+	message.content
+from
+	message
+left join user on
+	message.username = user.id
+where
+	message.username in('gh', 'recoban')
+	and message.target_username in('gh', 'recoban')
+order by
+	message.date;
+INFO    2022-05-23 22:13:43,930 [AWT-EventQueue-0] jdbc.chat.ChatJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@6a1151a9: 
+select
+	(select name from user where username = message.username) sender,
+	(select name from user where username = message.target_username) reciver,
+	message.content
+from
+	message
+left join user on
+	message.username = user.id
+where
+	message.username in('gh', 'recoban')
+	and message.target_username in('gh', 'recoban')
+order by
+	message.date;
+INFO    2022-05-23 22:14:17,749 [AWT-EventQueue-0] jdbc.chat.ChatJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@116bb925: 
+select
+	(select name from user where username = message.username) sender,
+	(select name from user where username = message.target_username) reciver,
+	message.content
+from
+	message
+left join user on
+	message.username = user.id
+where
+	message.username in('gh', 'recoban')
+	and message.target_username in('gh', 'recoban')
+order by
+	message.date;
+INFO    2022-05-23 22:14:21,184 [AWT-EventQueue-0] jdbc.chat.ChatJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@12712067: 
+select
+	(select name from user where username = message.username) sender,
+	(select name from user where username = message.target_username) reciver,
+	message.content
+from
+	message
+left join user on
+	message.username = user.id
+where
+	message.username in('recoban', '7')
+	and message.target_username in('recoban', '7')
+order by
+	message.date;
+INFO    2022-05-23 22:14:21,187 [AWT-EventQueue-0] jdbc.chat.ChatJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@621a1f5a: 
+select
+	(select name from user where username = message.username) sender,
+	(select name from user where username = message.target_username) reciver,
+	message.content
+from
+	message
+left join user on
+	message.username = user.id
+where
+	message.username in('recoban', '7')
+	and message.target_username in('recoban', '7')
+order by
+	message.date;
+INFO    2022-05-23 22:14:22,665 [AWT-EventQueue-0] jdbc.chat.ChatJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@2b2eff0b: 
+select
+	(select name from user where username = message.username) sender,
+	(select name from user where username = message.target_username) reciver,
+	message.content
+from
+	message
+left join user on
+	message.username = user.id
+where
+	message.username in('recoban', 'gh')
+	and message.target_username in('recoban', 'gh')
+order by
+	message.date;
+INFO    2022-05-23 22:14:22,669 [AWT-EventQueue-0] jdbc.chat.ChatJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@4bef39e6: 
+select
+	(select name from user where username = message.username) sender,
+	(select name from user where username = message.target_username) reciver,
+	message.content
+from
+	message
+left join user on
+	message.username = user.id
+where
+	message.username in('recoban', 'gh')
+	and message.target_username in('recoban', 'gh')
+order by
+	message.date;
